@@ -1,0 +1,56 @@
+.todo-app{
+  max-width: 400px;
+  margin: auto;
+  text-align: center;
+  min-height: 500px;
+  background-color: #fff;
+  padding: 25px;
+  margin-top: 60px;
+}
+h1{
+  margin-bottom: 10px;
+}
+
+form{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+input, button{
+  padding: 5px 10px;
+  border: none;
+  outline: none;
+}
+
+input{
+  width: 70%;
+  border-bottom: 1px solid;
+}
+
+button{
+  background-color: blueviolet;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.todo-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4px auto;
+  color: white;
+  background-color: blueviolet;
+  padding: 8px;
+  border-radius: 5px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.iconsContainer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
